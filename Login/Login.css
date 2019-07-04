@@ -1,0 +1,95 @@
+html{
+  font-size:62.5%;
+
+}
+a{
+  text-decoration: none;
+}
+a,p,ul,li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background:#fff;
+}
+*{
+  padding:0;
+  margin:0;
+}
+.login-content{
+  padding:1.5rem;
+}
+h3{
+  line-height: 3rem;
+  height:3rem;
+  width:100%;
+  text-align: center;
+  font-size:3rem;
+  color:#333;
+  font-weight:400;
+}
+.login-cancel::after{
+  content: "\2715";
+  display:block;
+  width:4rem;
+  height: 4rem;
+  font-size:2.2rem;
+  color:#505050;
+  position: relative;
+  left:0;top:0;
+  font-weight: 400;
+  font-style:normal;
+}
+.login-center{
+  padding:1.5rem 1.5rem 1.5rem 0;
+  margin-top:3rem;
+}
+.box-one1{
+  padding:0.5rem;
+  line-height:3rem;
+  width:30.5rem;
+  margin-right: 1.5rem;
+  height:3rem;
+  color:#494949;
+  font-size: 1.8rem;
+  font-weight:400; 
+  border:1px solid #d7d7d7;
+  outline:none;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='30' height='30' viewBox='0 0….5 1.5 0 0 1 2.122-2.122l3.535 3.536z' fill='%23FFF'/%3E%3C/g%3E%3C/svg%3E");
+}
+.box-one2{
+  padding:0.5rem;
+  line-height:3rem;
+  width:30.5rem;
+  margin-right: 1.5rem;
+  height:3rem;
+  color:#494949;
+  font-size: 1.8rem;
+  font-weight:400; 
+  border:1px solid #d7d7d7;
+  outline:none;
+}
+.border1{
+  border-bottom:none;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.border2{
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.login-button{
+  margin-top: 1.5rem;
+  height:3rem;
+  width:31.5rem;
+  background-color:rgba(66,189,86,.5);
+  color:#fff;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 3rem;
+  text-align: center;
+}
+
+   	 
